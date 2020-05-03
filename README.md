@@ -8,16 +8,16 @@
     NRMSE 5%
 
 
-Schedule
+### Schedule
 ***
 | Month | Contents | Links |
 |:-----:|:--------:|:-----:|
-| March |  ST-GAN  | [Paper](https://arxiv.org/pdf/2002.01075.pdf) <br/>
-                     [GIthub](https://github.com/chenhsuanlin/spatial-transformer-GAN) |
+| March |  ST-GAN  | [Paper](https://arxiv.org/pdf/2002.01075.pdf) |
+|       |          | [GIthub](https://github.com/chenhsuanlin/spatial-transformer-GAN) |
 | April |  ST-GAN  | [Github](https://github.com/kevinzakka/spatial-transformer-network)|
 |       | Hourglass network | [GIthub](https://github.com/deepinx/deep-face-alignment)	|
 
-Reports
+### Reports
 ***
 + Google Drive
 + Midterm : Report
