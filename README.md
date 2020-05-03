@@ -10,7 +10,7 @@
 
 ### Schedule
 ***
-| Month | Contents | Links |
+| Month | Contents | Reference |
 |:-----:|:--------:|:-----:|
 | March |  ST-GAN  | [Paper](https://arxiv.org/pdf/2002.01075.pdf) |
 |       |          | [GIthub](https://github.com/chenhsuanlin/spatial-transformer-GAN) |
