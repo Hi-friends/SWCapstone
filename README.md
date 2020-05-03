@@ -2,9 +2,9 @@
 
 ### Overview
 ***
-* Needs, Problems
+- Needs, Problems
     Because of covid-19, there is high misrecognition rate of masked face.
-* Goals, Objectives (evaluation)
+- Goals, Objectives (evaluation)
     NRMSE 5%
 
 
