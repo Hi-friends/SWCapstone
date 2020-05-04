@@ -1,3 +1,12 @@
+'''
+@inproceedings{Xiang2018Score,
+  title={Score-Guided Face Alignment Network Under Occlusions},
+  author={Xiang Yan and Huabin Wang and Qi Wang and Jinjie Song and Liang Tao},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  year={2018},
+}
+'''
+
 import os
 import argparse
 import torch.utils.data as data
