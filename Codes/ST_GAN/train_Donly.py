@@ -1,3 +1,12 @@
+'''
+@inproceedings{lin2018stgan,
+  title={ST-GAN: Spatial Transformer Generative Adversarial Networks for Image Compositing},
+  author={Lin, Chen-Hsuan and Yumer, Ersin and Wang, Oliver and Shechtman, Eli and Lucey, Simon},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  year={2018}
+}
+'''
+
 import numpy as np
 import time,os,sys
 import util
