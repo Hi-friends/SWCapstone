@@ -28,8 +28,8 @@ def main(config):
     if not os.path.exists(config.model_save_dir):
         os.makedirs(config.model_save_dir)
 
-    imgdirs_train = ['data/CelebA/trainset/']
-    imgdirs_test_commomset = ['data/CelebA/testset/']
+    imgdirs_train = ['data/afw/', 'data/helen/trainset/', 'data/lfpw/trainset/']
+    imgdirs_test_commomset = ['data/helen/testset/','data/lfpw/testset/']
 
     # Dataset and Dataloader
     if config.phase == 'test':
