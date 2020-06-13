@@ -1,6 +1,6 @@
 ## Masked Face Recognition(Capstone design 2020-1)
 
-<img src="/Codes/Abstract.jpg" width="900px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/Codes/Abstract.jpg" width="600px" height="400px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### Overview
 ***
