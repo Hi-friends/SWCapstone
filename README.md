@@ -19,11 +19,11 @@
 2. Download pretrained SHN model [here](https://drive.google.com/drive/folders/1AbTGhIBzUUINTH2GNL05tSWvOHnclRr4)
 & Download your test image at "Codes/FINAL/image/test", file name should be 'maskx.jpg'
 3. Locate that model at 'SWCapstone/Codes/SHN/models/model-hg2d3-cab/model/' dierectory
-4. <pre><code>SWCapstone/Codes/SHN$python test.py</code></pre>
-5. SWCapstone/Codes/FINAL$python align.py
-6. $docker pull bamos/openface
+4. <pre><code>SWCapstone/Codes/SHN$ python test.py</code></pre>
+5. <pre><code>SWCapstone/Codes/FINAL$ python align.py</code></pre>
+6. <pre><code>$docker pull bamos/openface</code></pre>
 7. Upload your testdata(which is in your SWCapstone/Codes/FINAL/transformed directory) to root/openface/aligned-images, then you can get labels.csv and reps.csv
-8. SWCapstone/Codes/FINAL$python recog_test.py
+8. <pre><code>SWCapstone/Codes/FINAL$python recog_test.py</code></pre>
 9. Get Results
 
 
