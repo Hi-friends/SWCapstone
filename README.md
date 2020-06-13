@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-    <img src="/Codes/Abstract.jpg" width="700px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img></div>
+    <img src="/Codes/Abstract.jpg" width="700px" height="300px" title="px(픽셀) 크기 설정" alt="Abstract"></img></div>
 </p>
 <br/>
 
