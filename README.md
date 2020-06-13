@@ -41,18 +41,18 @@ STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editin
 [Robust Facial Landmark Detection via Occlusion-adaptive Deep Networks(2019)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Robust_Facial_Landmark_Detection_via_Occlusion-Adaptive_Deep_Networks_CVPR_2019_paper.pdf)   
 
 - GitHub   
-[ST-GAN](https://github.com/chenhsuanlin/spatial-transformer-GAN)   
-[InterFaceGAN](https://github.com/genforce/interfacegan)   
-[STN](https://github.com/kevinzakka/spatial-transformer-network)   
-[Face Frontalization GAN](https://github.com/scaleway/frontalization)   
-[Hourglass Network](https://github.com/deepinx/deep-face-alignment)   
-[Hourglass Network](https://github.com/viliusmat/SHN-based-2D-face-alignment)   
-[Affine Transformation](https://github.com/cmusatyalab/openface/blob/master/openface/align_dlib.py)   
-[Generate Embedding](https://gist.github.com/ageitgey/ddbae3b209b6344a458fa41a3cf75719)   
-[SRGAN](https://github.com/dongheehand/SRGAN-PyTorch)   
-[CCGAN](https://github.com/mafda/generative_adversarial_networks_101/blob/master/src/mnist/04_CCGAN_MNIST.ipynb)   
-[Inpainting](https://github.com/JiahuiYu/generative_inpainting)   
-[Generative-Inpainting](https://github.com/daa233/generative-inpainting-pytorch)   
+ST-GAN : <https://github.com/chenhsuanlin/spatial-transformer-GAN>   
+InterFaceGAN : <https://github.com/genforce/interfacegan>   
+STN : <https://github.com/kevinzakka/spatial-transformer-network>   
+Face Frontalization GAN : <https://github.com/scaleway/frontalization>   
+Hourglass Network : <https://github.com/deepinx/deep-face-alignment>   
+Hourglass Network : <https://github.com/viliusmat/SHN-based-2D-face-alignment>   
+Affine Transformation : <https://github.com/cmusatyalab/openface/blob/master/openface/align_dlib.py>   
+Generate Embedding : <https://gist.github.com/ageitgey/ddbae3b209b6344a458fa41a3cf75719>   
+SRGAN : <https://github.com/dongheehand/SRGAN-PyTorch>   
+CCGAN : <https://github.com/mafda/generative_adversarial_networks_101/blob/master/src/mnist/04_CCGAN_MNIST.ipynb>   
+Inpainting : <https://github.com/JiahuiYu/generative_inpainting>   
+Generative-Inpainting : <https://github.com/daa233/generative-inpainting-pytorch>   
 
 - HomePage   
 [Docker container to image](https://galid1.tistory.com/323)   
