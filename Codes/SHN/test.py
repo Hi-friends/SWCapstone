@@ -72,7 +72,7 @@ class Handler:
 
 
 if __name__ == '__main__':
-  img_path = './sample-images/test/'
+  img_path = '../FINAL/image'
   prefix = './models/model-hg2d3-cab/model'
   file_lst = os.listdir(img_path)
   for file in file_lst :
@@ -82,7 +82,7 @@ if __name__ == '__main__':
       ta = datetime.datetime.now() 
       landmark_list = handler.get_landmark(img)
       data = np.array(landmark_list)
-      np.save('./sample-images/result/{0}'.format(file.split('.')[0]),data)
+      np.save('../FINAL/landmark/{0}'.format(file.split('.')[0]),data)
       tb = datetime.datetime.now()
       print('get time cost', (tb-ta).total_seconds())
 '''
