@@ -60,6 +60,7 @@ Generative-Inpainting : <https://github.com/daa233/generative-inpainting-pytorch
 
 ### Reports
 ***
-+ Google Drive
++ Dataset : [Google Drive](https://drive.google.com/open?id=1DVGKfMXIHlCuQb_DdnphmVLWszaghkXR)   
+(If you send access request, you can get permission to access dataset)
 + Report : [Report](https://github.com/Hi-friends/SWCapstone/tree/master/Reports)
 + Final : [Report](https://github.com/Hi-friends/SWCapstone/tree/master/Reports), Demo
