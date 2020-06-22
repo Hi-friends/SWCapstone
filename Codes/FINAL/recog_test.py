@@ -78,17 +78,17 @@ for k,v in dict.items() :
 
 df2 = pd.read_csv("./labels.csv", header=None)
 df2 = list(df2[1])
-target = []
+#target = []
 test = []
 idx = []
 for i in range(len(df2)):
-    target.append(df2[i].split('/')[2])
+    #target.append(df2[i].split('/')[2])
     if '-' not in (df2[i].split('/')[3]):
         test.append(i)
         idx.append(df2[i].split('/')[3].split('_')[0])
-for i in range(len(target)):
-    target[i] = dict[target[i]]
-emb['target'] = target
+#for i in range(len(target)):
+#    target[i] = dict[target[i]]
+#emb['target'] = target
 emb = emb.iloc[test]
 emb['idx'] = idx
 emb = emb.set_index("idx")
@@ -158,8 +158,8 @@ for i in range(len(data)) :
     predict_per.append(predict6[0])
     pred_ans.append(np.argmax(predict_per[5]))
     
-    predict7 = clf.predict(test56[i].reshape(1,-1))[0]
-    pred_ans.append(dict[predict7])
+    predict7 = clf.predict(test34[i].reshape(1,-1))[0]
+    pred_ans.append(predict7)
 
     
     pred_ans = np.array(pred_ans) #해당 인물이 몇번 인물인지
@@ -176,26 +176,12 @@ for i in range(len(data)) :
             ans = ans + arr
         softmax[i] = ans/6 # softmax 평균, shape:(1,6)
         
-        if np.max(softmax[i]) > 0.3 :
+        if np.max(softmax[i]) > 0.5 :
             fin_pred[i] = n_dict[val]
-        if val == 3 :
-            num_count = []
-            for k in range(len(count)) :
-                if count[k] == 3 :
-                    num_count.append(k)
-            if len(num_count) == 1 :
-                fin_pred[i] = n_dict[np.argmax(count)]
-                #print(fin_pred[i])
-            else :
-                if pred_ans[6] != 100 :
-                    fin_pred[i] = n_dict[pred_ans[6]]
-                else :
-                    compare_softmax = []
-                    for m in num_count :
-                        compare_softmax.append(ans[m])
-                        #print(compare_softmax)
-                    compare_softmax = np.array(compare_softmax)
-                    fin_pred[i] = n_dict[num_count[np.argmax(compare_softmax)]]
+
+            #print(compare_softmax)
+        #compare_softmax = np.array(compare_softmax)
+        #fin_pred[i] = n_dict[num_count[np.argmax(compare_softmax)]]
 
 print('==================== Results ====================')
 for i in range(len(fin_pred)) :
